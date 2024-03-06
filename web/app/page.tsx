@@ -18,7 +18,7 @@ function Page() {
         displayMode: 'integrated',
         integratedTargetId: 'integrated-terminal',
         endpoint:
-          'https://mainnet.helius-rpc.com/?api-key=d207dd7f-4f9c-4232-aefd-1ad871e07b8a',
+          'https://burned-withered-county.solana-mainnet.quiknode.pro/0a8c94fb559cd5cb92eb4f5c1cddbc2d91263da9',
         strictTokenList: false,
         defaultExplorer: 'SolanaFM',
         formProps: {

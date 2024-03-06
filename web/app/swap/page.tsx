@@ -56,7 +56,7 @@ export default function Swap() {
 
   // Need a custom RPC so you don't get rate-limited, don't rely on users' wallets
   const connection = new Connection(
-    'https://mainnet.helius-rpc.com/?api-key=d207dd7f-4f9c-4232-aefd-1ad871e07b8a'
+    'https://burned-withered-county.solana-mainnet.quiknode.pro/0a8c94fb559cd5cb92eb4f5c1cddbc2d91263da9'
   );
 
   const handleFromAssetChange = async (
