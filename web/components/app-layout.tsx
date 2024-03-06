@@ -31,17 +31,17 @@ export function AppLayout({ children }: { children: ReactNode }) {
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                gap: '3px',
+                gap: '1px',
               }}
             >
               <p
                 style={{
-                  color: '#AB9FF2',
+                  color: 'rgb(192 132 252)',
                 }}
               >
-                ZEKEN
-              </p>{' '}
-              SWAP
+                Zeken
+              </p>
+              Swap
             </div>
           </Link>
         </div>
@@ -79,6 +79,9 @@ export function AppLayout({ children }: { children: ReactNode }) {
               href="https://the-zen.dev"
               target="_blank"
               rel="noopener noreferrer"
+              style={{
+                color: 'rgb(192 132 252)',
+              }}
             >
               The Zen
             </a>
